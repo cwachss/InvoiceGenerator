@@ -6,7 +6,7 @@ invoice_count = 1
 
 
 def generate_invoice_pdf(worksheet, invoice_num):
-
+    # comment
     for row in worksheet.iter_rows():
         if not row[2].value:
             print(f"generating invoice for {row[0].value}")
